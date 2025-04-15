@@ -1,0 +1,14 @@
+<ion-list lines="none">
+  <ion-item>
+    <h2> Tríangulo Equilatero</h2>
+  </ion-item>
+  <ion-item>
+    <ion-input [(ngModel)]="ladoAStr" type="number" label="valor de sus lados " label-placement="floating" fill="solid" placeholder="Ingrese valor"></ion-input>
+  </ion-item>
+  <ion-item>
+ <ion-button (click)="calcularPerimetro()">Calcular Perimetro</ion-button>
+</ion-item>
+<ion-item>
+  {{resultado3}}
+ </ion-item>
+</ion-list>

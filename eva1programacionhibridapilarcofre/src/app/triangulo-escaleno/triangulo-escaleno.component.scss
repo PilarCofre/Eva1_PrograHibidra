@@ -1,0 +1,15 @@
+.texto-con-imagen {
+    display: flex;
+    align-items: center;  /* Centra el texto y la imagen verticalmente */
+  }
+  
+.imagen {
+    width: 100px;  /* Ajusta el tamaño de la imagen */
+    height: 100px;
+    margin-right: 100px;  /* Espacio entre la imagen y el texto */
+  }
+  
+.texto {
+    font-size: 18px;
+    color: #333;
+  }
